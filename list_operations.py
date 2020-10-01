@@ -37,7 +37,6 @@ def last(input_list):
     """
 
     return input_list[-1]
-print(last([0,1,2]))
 
 
 def top(input_list):
@@ -50,8 +49,9 @@ def top(input_list):
 
     """
 
-    return []
+    return input_list[0:-1]
 
+print(top([0, 1, 2]))
 
 def first_three(input_list):
     """Return the first three elements of the input list.
