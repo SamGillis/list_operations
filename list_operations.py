@@ -9,10 +9,10 @@ def head(input_list):
       >>> head(['Jan', 'Feb', 'Mar'])
       'Jan'
     """
+    
+    return input_list[0]
 
-    return None
-
-
+print(head(['bear', 'cat']))
 def tail(input_list):
     """Return a new list of all items, excluding the first item.
 
