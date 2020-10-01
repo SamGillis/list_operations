@@ -68,7 +68,7 @@ def custom_extend(input_list, second_list):
         True
 
     """
-
+    input_list[custom_len(input_list):] = second_list
     pass
 
 
