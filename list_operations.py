@@ -51,7 +51,6 @@ def top(input_list):
 
     return input_list[0:-1]
 
-print(top([0, 1, 2]))
 
 def first_three(input_list):
     """Return the first three elements of the input list.
@@ -63,8 +62,7 @@ def first_three(input_list):
 
     """
 
-    return []
-
+    return input_list[:3]
 
 def last_five(input_list):
     """Return the last five elements of the input list.
