@@ -183,6 +183,8 @@ def custom_reverse(input_list):
 
     """
 
+    input_list[0:] = input_list[::-1]
+
     pass
 
 
