@@ -141,8 +141,11 @@ def custom_index(input_list, value):
         1
 
     """
+    for i in range(custom_len(input_list)):
+        if str(input_list[i]) == str(value):
+            return i
 
-    return 0
+
 
 
 def custom_count(input_list, value):
