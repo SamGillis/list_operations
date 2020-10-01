@@ -12,7 +12,7 @@ def head(input_list):
     
     return input_list[0]
 
-print(head(['bear', 'cat']))
+
 def tail(input_list):
     """Return a new list of all items, excluding the first item.
 
@@ -23,7 +23,7 @@ def tail(input_list):
 
     """
 
-    return []
+    return input_list[1:]
 
 
 def last(input_list):
