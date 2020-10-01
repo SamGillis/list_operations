@@ -204,8 +204,10 @@ def custom_contains(input_list, value):
         True
 
     """
-
-    return None
+    for each in input_list:
+        if str(each) == str(value):
+            return True
+    return False
 
 
 def custom_equality(some_list, another_list):
