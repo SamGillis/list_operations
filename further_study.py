@@ -86,7 +86,7 @@ def custom_insert(input_list, index, value):
         True
 
     """
-
+    input_list[int(index):] = [value] + input_list[int(index):]
     pass
 
 
