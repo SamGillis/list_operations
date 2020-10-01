@@ -160,8 +160,11 @@ def custom_count(input_list, value):
         2
 
     """
-
-    return 0
+    count = 0
+    for item in input_list:
+        if str(item) == str(value):
+            count += 1
+    return count
 
 
 def custom_reverse(input_list):
